@@ -618,20 +618,24 @@ ul.portfolio-image li:hover {
   cursor: pointer;
 }
 ul.portfolio-image li:hover img {
-  -webkit-filter: grayscale(20%);
+  /* -webkit-filter: grayscale(90%); */
   transform: scale(1.15);
 }
-ul.portfolio-image li:hover .image-bg {opacity: 1;}
-ul.portfolio-image li:hover .description-wrap {
-  background: rgba(186, 186, 186, 0.6);
+ul.portfolio-image li:hover .project_thumbnail {
+  -webkit-filter: grayscale(90%);
+  opacity: 0.1;
 }
+ul.portfolio-image li:hover .image-bg {opacity: 1;}
+/* ul.portfolio-image li:hover .decription-wrap {
+  background: rgba(186, 186, 186, 0.6);
+} */
 ul.portfolio-image li img {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
@@ -640,10 +644,11 @@ ul.portfolio-image li .decription-wrap {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(242, 242, 242, 0.4);
-  padding: 20px;
+  /* background: rgba(242, 242, 242, 0.4); */
+  padding: 45px;
   transition: background, 0.5s;
 }
+
 ul.portfolio-image li .image-bg {
   color: #2f2f2f;
   background: #ffffff;
@@ -912,7 +917,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg');
+  background: url('../images/mike_shen_profile.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -944,7 +949,7 @@ ul.portfolio-image li .desc{
 }
 
 .wrap-about .w-content td{
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
 }
 .wrap-about .w-content td.title{
@@ -958,7 +963,7 @@ ul.portfolio-image li .desc{
   height: 35px;
 }
 .wrap-about .head-about {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 34px;
   letter-spacing: 0.5px;
   font-weight: 300;
