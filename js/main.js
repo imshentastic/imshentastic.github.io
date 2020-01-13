@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["I'm a Software Engineer"],
+        strings: ["I am a Software Engineer"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
