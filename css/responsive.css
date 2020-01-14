@@ -1,8 +1,101 @@
+
+@media screen and (min-width: 768px){
+	.content-right {
+	  margin-top: 20px;
+	  padding: 0 20px 0 60px; 
+	}
+}
+@media screen and (max-width: 768px){
+	/*------ header -----*/	
+	.for-sticky{ padding: 0; }
+	.logo-nav { margin-left: 0;}
+	.menu-button{margin-right: 15px;}
+	.ma-infinitypush-wrapper.ma-infinitypush-active-button.ma-infinitypush-button-right .ma-infinitypush-button{
+		left: -65px;
+	}
+	.ma-infinitypush-wrapper{ width: 200px; }
+	.ma-infinitypush-wrapper	ul > li{
+			width: 200px;
+		}
+
+	/*------- home ------*/
+	#home p {width: 100%;}
+
+	/*----- portfolio -----*/
+	.portfolio-image > .col-md-8{
+		width: 65%;
+	}
+	/* .portfolio-image > .col-md-4{
+		width: 35%;
+	} */
+	.portfolio-image > li > div > p{
+		width: 100%;
+		/* font-size: 12px; */
+		/* line-height:1.9em; */
+		text-align: left;
+		margin-top: 0px;
+	}
+	ul.portfolio-image li{
+		width: 35%;
+		/* padding-top: 20%; */
+	}
+	.content-detail {
+		margin-top:0;
+		font-size: 13px;
+		line-height:1.9em;
+	}
+
+  /*---- blog -----*/
+	.grid-item {width: 50%;}
+
+  /*------- about -------*/
+  .bg-about{
+	  min-height: 5px;
+	  padding: 20px;
+	}
+
+
+  .wrap-about{
+  	min-height: 520px;
+  	padding-bottom: 10%;
+  	padding-left: 30px;
+	padding-right: 30px;
+
+  }
+
+  .wrap-about	.head-quote{padding-top: 10%;}
+
+  .content-right{ margin-top: 20px; }
+
+  .text-grey{margin-bottom: 45px;}
+  .skillst{ margin-top: 50px;}
+	/*------ footer -----*/
+  footer p{ text-align: center; }
+  footer ul.social {
+    margin-left: -40px;
+    text-align: center;
+	}
+	footer ul.social li { 
+		padding: 0px 10px 0px 10px;
+	}
+}
+.skill_thumbnail {
+	max-width: 30vw;
+	
+}
+  .listing-item{
+	  display: flex;
+	  flex-wrap: wrap;
+  }
+
+
+
+
 @media screen and (max-width: 480px){
 	/*----- layout ----*/
-	.grey-bg, .white-bg{
+	/* .grey-bg, .white-bg{
 		padding: 40px 0; 
-	}
+	} */
 	/*---- hero -----*/
 	.hero-content{
 		min-width: 280px; 
@@ -14,13 +107,39 @@
 	/*---- portfolio -----*/
 	ul.portfolio-image li{
 		width: 100%;
-		padding-top: 95%;
+		padding-top: 80%;
 	}
+	.content-detail {
+		margin-top:0;
+	}
+	.portfolio-image > .col-md-4{
+		width: 100%;
+	}
+
+	.portfolio-image > .col-md-8{
+		width: 100%;
+		height: 20vh;
+	} 
+	/* .portfolio-image > li > div > p{
+		width: 100%;
+		font-size: 12px;
+		line-height:1.9em;
+		text-align: left;
+		margin-top: 0px;
+	} */
 
 	/*---- blog -----*/
 	.grid-item {
     width: 100% !important;
     padding: 0;
+  }
+  .skill_thumbnail {
+	max-width: 25vw;
+	
+}
+  .listing-item{
+	  display: flex;
+	  flex-wrap: wrap;
   }
 
 	/*---- quote -----*/
@@ -42,62 +161,4 @@
   #testimonial{ height: 700px;}
 
   .skillst {margin-top: 50px;}
-}
-
-
-@media screen and (max-width: 768px){
-	/*------ header -----*/	
-	.for-sticky{ padding: 0; }
-	.logo-nav { margin-left: 0;}
-	.menu-button{margin-right: 15px;}
-	.ma-infinitypush-wrapper.ma-infinitypush-active-button.ma-infinitypush-button-right .ma-infinitypush-button{
-		left: -65px;
-	}
-	.ma-infinitypush-wrapper{ width: 200px; }
-	.ma-infinitypush-wrapper	ul > li{
-			width: 200px;
-		}
-
-	/*------- home ------*/
-	#home p {width: 100%;}
-
-	/*----- portfolio -----*/
-	.portfolio-image > li{
-		width: 50%;
-	}
-
-
-  /*---- blog -----*/
-	.grid-item {width: 50%;}
-
-  /*------- about -------*/
-  .bg-about{min-height: 520px;}
-  .wrap-about{
-  	min-height: 520px;
-  	padding-bottom: 10%;
-  	padding-left: 30px;
-    padding-right: 30px;
-  }
-  .wrap-about	.head-quote{padding-top: 10%;}
-
-  .content-right{ margin-top: 20px; }
-
-  .text-grey{margin-bottom: 45px;}
-  .skillst{ margin-top: 50px;}
-	/*------ footer -----*/
-  footer p{ text-align: center; }
-  footer ul.social {
-    margin-left: -40px;
-    text-align: center;
-	}
-	footer ul.social li { 
-		padding: 0px 10px 0px 10px;
-	}
-}
-
-@media screen and (min-width: 1024px){
-	.content-right {
-	  margin-top: 20px;
-	  padding: 0 20px 0 60px; 
-	}
 }

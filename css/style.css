@@ -149,18 +149,18 @@ img { max-width: 100%; }
 /*----- background ------*/
 .grey-bg {
   background: #f6f6f6;
-  padding: 120px 0;
+  /* padding: 120px 0; */
   display: block;
 }
 .white-bg {
   background: #ffffff;
-  padding: 120px 0;
+  padding: 20px 0;
   display: block;
 }
 /*-------- content --------*/
 .content-detail {
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 40%;
   line-height: 30px;
   font-size: 15px;
   letter-spacing: 0.4px;
@@ -458,7 +458,7 @@ h5 {
 }
 p {
   letter-spacing: 0.5px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 34px;
   font-weight: 300;
 }
@@ -549,7 +549,7 @@ p {
   left: 0;
   right: 0;
   bottom: 30px;
-  z-index: 100;
+  z-index: 9;
 }
 
 .mouse-icon .scroll {
@@ -624,7 +624,7 @@ ul.portfolio-image li:hover .project_thumbnail {
   opacity: 0.1;
 }
 ul.portfolio-image li:hover .image-bg {opacity: 1;}
-/* ul.portfolio-image li:hover .decription-wrap {
+/* ul.portfolio-image li:hover .description-wrap {
   background: rgba(186, 186, 186, 0.6);
 } */
 ul.portfolio-image li img {
@@ -636,14 +636,14 @@ ul.portfolio-image li img {
   /* -webkit-filter: grayscale(100%); */
   transition: filter, transform, 0.5s;
 }
-ul.portfolio-image li .decription-wrap {
+ul.portfolio-image li .description-wrap {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   /* background: rgba(242, 242, 242, 0.4); */
-  padding: 45px;
+  padding: 5%;
   transition: background, 0.5s;
 }
 
@@ -915,7 +915,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/mike_shen_profile.jpg');
+  /* background: url('../images/mike_shen_profile.jpg'); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -947,7 +947,7 @@ ul.portfolio-image li .desc{
 }
 
 .wrap-about .w-content td{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 .wrap-about .w-content td.title{
@@ -1213,6 +1213,24 @@ ul.portfolio-image li .desc{
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/
 /*---------------- a. Skills ----------------*/
+
+.skill_thumbnail {
+	width: 8vw;
+	
+}
+  .listing-item{
+	  display: flex;
+	  flex-wrap: wrap;
+  }
+  .listing-item-block{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+
 .skillst {margin-top: 30px;}
 .skillst .skillbar {
   width: 100%;
@@ -1265,3 +1283,51 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+/* Modal for Resume*/
+#divBackground {
+  z-index: 10;
+  pointer-events: all;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 48, 48, 0.6);
+}
+#divResume {
+  z-index: 11;
+  pointer-events: all;
+  /* width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(165, 78, 78, 0.4); */
+}
+
+#resume {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  /* padding: 65px;
+  background: rgba(255, 255, 255, 0.8);
+  outline: 4px double #FFFFFF;
+  outline-offset: 8px; */
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  height: 80%;
+}
+
+
+.project-header {
+  font-size: 1.5em;
+  font-weight: 500px;
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
+}
