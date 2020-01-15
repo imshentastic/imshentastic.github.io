@@ -85,6 +85,9 @@ img { max-width: 100%; }
 *:focus {
   outline: none;
 }
+/* img {
+  pointer-events: none;
+} */
 
 /*----------------------------------------- 2) Preloader --------------------------------------------------*/
 #preloader {
@@ -160,7 +163,8 @@ img { max-width: 100%; }
 /*-------- content --------*/
 .content-detail {
   font-weight: 400;
-  margin-top: 40%;
+  /* margin-top: 40%; */
+  transform: translate(0,100%);
   line-height: 30px;
   font-size: 15px;
   letter-spacing: 0.4px;
@@ -489,11 +493,11 @@ p {
   color: #cccccc;
 }
 .company {
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 24px;
+  line-height: 32px;
   border: 1px solid #ececec;
-  color: #cccccc;
-  padding:8px 10px;
+  color: #616161;
+  /* padding:8px 10px; */
   border-radius: 6px;
   display: inline-block;
   margin-top: 5px;
@@ -635,8 +639,8 @@ ul.portfolio-image li img {
   top: 0;
   /* -webkit-filter: grayscale(100%); */
   transition: filter, transform, 0.5s;
-  pointer-events: none;
 }
+
 ul.portfolio-image li .description-wrap {
   position: absolute;
   width: 100%;
@@ -751,6 +755,7 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
+  text-align: center;
 }
 .card:before,
 .card:after {
@@ -1219,6 +1224,9 @@ ul.portfolio-image li .desc{
 .skill_thumbnail {
 	width: 8vw;
 	
+}
+.exp_thumbnail {
+  width: 10vw;
 }
   .listing-item{
 	  display: flex;
