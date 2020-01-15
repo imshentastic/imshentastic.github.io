@@ -635,6 +635,7 @@ ul.portfolio-image li img {
   top: 0;
   /* -webkit-filter: grayscale(100%); */
   transition: filter, transform, 0.5s;
+  pointer-events: none;
 }
 ul.portfolio-image li .description-wrap {
   position: absolute;
@@ -645,6 +646,7 @@ ul.portfolio-image li .description-wrap {
   /* background: rgba(242, 242, 242, 0.4); */
   padding: 5%;
   transition: background, 0.5s;
+  cursor: default;
 }
 
 ul.portfolio-image li .image-bg {
