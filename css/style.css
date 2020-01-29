@@ -506,6 +506,10 @@ p {
 }
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
+#myLink {
+  color: blue;
+  text-decoration: underline;
+}
 #home {
   background: url('../images/hero1.jpeg');
   -webkit-background-size: cover;
@@ -941,7 +945,7 @@ ul.portfolio-image li .desc{
   width: 100%;
   position: relative;
   display: block;
-  min-height: 480px;
+  min-height: 200px;
 }
 .wrap-about .w-content{
   position: absolute;
@@ -1338,6 +1342,13 @@ ul.portfolio-image li .desc{
 .project-header {
   font-size: 1.5em;
   font-weight: 500px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-family: 'Roboto', sans-serif;
+}
+.project-header-link{
+  color: blue;
+  font-size: 0.8em;
+  font-weight: 400px;
+  text-decoration: underline;
+
 }

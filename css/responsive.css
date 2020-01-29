@@ -100,7 +100,7 @@
 
 
   .wrap-about{
-  	min-height: 520px;
+  	min-height: 200px;
   	padding-bottom: 10%;
   	padding-left: 30px;
 	padding-right: 30px;
@@ -189,8 +189,8 @@
 
 	/*---- quote -----*/
 	.wrap-about{ 
-		padding: 0 0 20px 0;
-		min-height: 400px !important;
+		margin: 40px 0 0 0;
+		min-height: 200px !important;
 	}
 	.wrap-about .w-content{
 		left: 0;
