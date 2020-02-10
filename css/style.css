@@ -958,8 +958,9 @@ ul.portfolio-image li .desc{
 }
 
 .wrap-about .w-content td{
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 2.1em;
 }
 .wrap-about .w-content td.title{
   padding-right: 10px;
