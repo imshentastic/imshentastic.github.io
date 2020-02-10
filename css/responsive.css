@@ -2,7 +2,7 @@
 @media screen and (min-width: 769px){
 	.content-right {
 	  margin-top: 20px;
-	  padding: 0 20px 0 60px; 
+	  padding: 0 20px 0 20px; 
 	}
 	.portfolio-image > .col-md-8{
 		width: 65%;
@@ -124,6 +124,9 @@
 	}
 }
 .skill_thumbnail {
+	max-width: 11vw;
+}
+.skill_thumbnail_larger {
 	max-width: 11vw;
 }
 

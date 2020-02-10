@@ -1227,23 +1227,31 @@ ul.portfolio-image li .desc{
 /*---------------- a. Skills ----------------*/
 
 .skill_thumbnail {
-	width: 8vw;
-	
+	width: 9vw;
+}
+.skill_thumbnail_larger {
+	width: 9vw;
 }
 .exp_thumbnail {
   width: 10vw;
 }
-  .listing-item{
-	  display: flex;
-	  flex-wrap: wrap;
-  }
-  .listing-item-block{
-    list-style: none;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
+.listing-item{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.listing-item-block{
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.listing-item > *{
+  padding: 20px 5px 20px 5px;
+}
+
+
 
 
 .skillst {margin-top: 30px;}
